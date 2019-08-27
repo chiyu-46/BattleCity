@@ -61,7 +61,7 @@ class MainGame:
         # 储存道具列表
         self.daoju_group = pygame.sprite.LayeredUpdates()
         # 当前关卡数
-        self.stage = 34
+        self.stage = 1
         # 是否获胜
         self.win = False
         # 游戏是否结束(包括胜负两种)
